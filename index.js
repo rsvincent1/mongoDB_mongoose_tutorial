@@ -5,7 +5,7 @@ const port = 3000;
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 const mongoDB =
-  "mongodb+srv://rvincent87:cRhon4065@cluster0.iiml9ct.mongodb.net/local_library?retryWrites=true&w=majority";
+  "mongodb+srv://rvincent87:@cluster0.iiml9ct.mongodb.net/local_library?retryWrites=true&w=majority";
 
 main().catch((err) => console.log(err));
 async function main() {
